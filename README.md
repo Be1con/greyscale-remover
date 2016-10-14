@@ -5,7 +5,7 @@ Some people might have trouble reading the low contrast content of greyscaled we
 
 To install : 
 
-1. Download 
+1. Download : http://bit.ly/2e2TEz7 
 
 2. Install the remove-greyscale.crx file by Drag it to Google Chrome's window. 
 
