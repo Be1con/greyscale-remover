@@ -1,0 +1,24 @@
+{
+  "name": "Remove Grayscale",
+  "short_name": "Remove Grayscale",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Respectly remove grayscale from website.",
+  "homepage_url": "http://nutn0n.com",
+  "default_locale": "en",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*"
+      ],
+      "css": [
+        "content_script/remove-grayscale.css"
+      ]
+    }
+  ]
+}

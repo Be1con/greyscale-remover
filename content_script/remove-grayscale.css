@@ -1,0 +1,12 @@
+html, body, img{
+  /* IE */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0)!important;
+  /* Chrome, Safari */
+  -webkit-filter: grayscale(0)!important;
+  /* Firefox */
+  filter: grayscale(0)!important;
+
+  filter:saturate(0%)!important;
+  -webkit-filter: saturate(0%)!important;
+
+}
