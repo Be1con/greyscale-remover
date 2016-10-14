@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*"
+        "<all_urls>"
       ],
       "css": [
         "content_script/remove-grayscale.css"
