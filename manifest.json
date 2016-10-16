@@ -1,24 +1,29 @@
 {
-  "name": "Remove Grayscale",
-  "short_name": "Remove Grayscale",
-  "version": "1.0",
-  "manifest_version": 2,
-  "description": "Respectly remove grayscale from website.",
-  "homepage_url": "http://nutn0n.com",
-  "default_locale": "en",
-  "icons": {
-    "16": "img/icon16.png",
-    "48": "img/icon48.png",
-    "128": "img/icon128.png"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "css": [
-        "content_script/remove-grayscale.css"
-      ]
+    "author": "Nutn0n",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "content_script/remove-grayscale.css"
+            ]
+        }
+    ],
+    "default_locale": "en",
+    "description": "Respectly remove grayscale from website.",
+    "homepage_url": "http://nutn0n.com",
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "manifest_version": 2,
+    "name": "Remove Grayscale",
+    "short_name": "Remove Grayscale",
+    "version": "1.0",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
     }
-  ]
 }
